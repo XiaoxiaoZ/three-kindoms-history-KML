@@ -2,6 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document id="1hYeoJeVXoLH35VAgripuELvWJZJGxLeR">
 	<name>三国志人物事件标记</name>
+	<open>1</open>
 	<description>三国志人物事件标记， 时间地点人物</description>
 	<gx:CascadingStyle kml:id="__managed_style_2130315CC81EFDE95E90">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.0.23.0/card_template.kml#main</styleUrl>
@@ -176,45 +177,29 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<Style id="sh_ylw-pushpin">
+	<StyleMap id="msn_ylw-pushpin3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wht-blank1">
 		<IconStyle>
 			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ffffaaaa</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>33ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ff7faaaa</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>33ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_wht-blank01">
-		<IconStyle>
-			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
 			</Icon>
@@ -226,21 +211,134 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin2">
+	<StyleMap id="m_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1</styleUrl>
+			<styleUrl>#s_ylw-pushpin5</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl20</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7faa55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>33ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7faaaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>33ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl300</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wht-blank">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin13">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>33ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin11</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="failed0">
 	</Style>
-	<Style id="s_ylw-pushpin0">
+	<Style id="sh_ylw-pushpin00">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -261,27 +359,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin9</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin6</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin4">
+	<Style id="sh_ylw-pushpin10">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -290,42 +368,14 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ff0000ff</color>
-			<width>5</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>5</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ff00aaaa</color>
+			<color>ff00aaff</color>
 			<width>2</width>
 		</LineStyle>
 		<PolyStyle>
 			<color>33ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin1">
+	<Style id="s_ylw-pushpin_hl21">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -333,59 +383,15 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ffffaa55</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>33ffffff</color>
-		</PolyStyle>
 	</Style>
-	<Style id="s_ylw-pushpin2">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin01">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>5</width>
-		</LineStyle>
-	</Style>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>5</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin0">
+	<StyleMap id="msn_ylw-pushpin20">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin9</styleUrl>
+			<styleUrl>#sh_ylw-pushpin20</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="s_ylw-pushpin_hl0">
@@ -401,27 +407,110 @@
 			<width>5</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin1">
+	<StyleMap id="msn_ylw-pushpin11">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin00</styleUrl>
+			<styleUrl>#sn_ylw-pushpin8</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl30</styleUrl>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin1">
+	<Style id="sh_ylw-pushpin12">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin13">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7faaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>33ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin60">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin8">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin4</styleUrl>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+			<styleUrl>#sh_ylw-pushpin8</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin3">
+	<Style id="sn_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>33ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin9">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f55ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>33ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -434,17 +523,214 @@
 			<width>5</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin6">
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>33ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+			<styleUrl>#s_ylw-pushpin10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="failed00">
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_wht-blank1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_wht-blank01">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin30">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin21">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_wht-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaaff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>33ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00aaaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>33ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="__managed_style_150F7D05CA1EFDE95E88">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="failed1">
 	</Style>
 	<Style id="sn_wht-blank0">
 		<IconStyle>
@@ -460,103 +746,59 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_wht-blank">
+	<StyleMap id="msn_ylw-pushpin000">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_wht-blank01</styleUrl>
+			<styleUrl>#sn_ylw-pushpin40</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_wht-blank2</styleUrl>
+			<styleUrl>#sh_ylw-pushpin12</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin00">
+	<Style id="failed00">
+	</Style>
+	<StyleMap id="msn_ylw-pushpin7">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin11</styleUrl>
+			<styleUrl>#sn_ylw-pushpin60</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin21</styleUrl>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin5">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin3">
+	<StyleMap id="m_ylw-pushpin2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+			<styleUrl>#s_ylw-pushpin1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl20</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_ylw-pushpin2">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>5</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="__managed_style_150F7D05CA1EFDE95E88">
+	<StyleMap id="m_ylw-pushpin40">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#failed3</styleUrl>
+			<styleUrl>#s_ylw-pushpin4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#failed00</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ylw-pushpin2">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>5</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin3">
+	<StyleMap id="msn_wht-blank10">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin10</styleUrl>
+			<styleUrl>#sn_wht-blank10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+			<styleUrl>#sh_wht-blank</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="failed3">
-	</Style>
-	<Style id="sh_wht-blank0">
+	<Style id="sh_wht-blank10">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -570,26 +812,158 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="__managed_style_150F7D05CA1EFDE95E8801">
+	<StyleMap id="msn_ylw-pushpin40">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#failed1</styleUrl>
+			<styleUrl>#sn_ylw-pushpin30</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#failed</styleUrl>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_wht-blank10">
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_wht-blank00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="failed2">
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_wht-blank1</styleUrl>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_wht-blank</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_wht-blank1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="__managed_style_074624D44F1EFDE95E87">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1E0FDCE1001EFDE95E87</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_01B0FF545A1EFDE95E88</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaaaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>33ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="failed">
+	</Style>
+	<Style id="s_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin30">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_wht-blank">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -613,237 +987,14 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_wht-blank0">
+	<StyleMap id="__managed_style_0F82181DC01EFDE95E8A">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_wht-blank00</styleUrl>
+			<styleUrl>#__managed_style_1D86ACEA341EFDE95E8A</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_wht-blank10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin7">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_wht-blank">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>5</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>5</width>
-		</LineStyle>
-	</Style>
-	<Style id="s_ylw-pushpin10">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin5">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin7</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="__managed_style_074624D44F1EFDE95E87">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_1E0FDCE1001EFDE95E87</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_01B0FF545A1EFDE95E88</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl00">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>5</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin6">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ff7f55ff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>33ffffff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin7">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin60</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin20">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>5</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_wht-blank1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl2">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin13</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin20">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin20</styleUrl>
+			<styleUrl>#__managed_style_2F9B48C4A01EFDE95E8A</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_ylw-pushpin8">
@@ -854,8 +1005,6 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>ffffaaff</color>
 			<width>2</width>
@@ -864,142 +1013,9 @@
 			<color>33ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="s_ylw-pushpin00">
+	<Style id="sn_ylw-pushpin40">
 		<IconStyle>
 			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin9">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ff7faaaa</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>33ffffff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin8">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin8</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin3">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ff7faaff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>33ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="failed2">
-	</Style>
-	<StyleMap id="m_ylw-pushpin00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin60">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>5</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_wht-blank1">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin50">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin60</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin30</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin40">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl30">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl4">
-		<IconStyle>
-			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -1014,8 +1030,6 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>ff00aaff</color>
 			<width>2</width>
@@ -1024,195 +1038,26 @@
 			<color>33ffffff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin6">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ffffaaff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>33ffffff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin9">
+	<StyleMap id="m_ylw-pushpin00">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin13</styleUrl>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl30</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl21</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin7">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_wht-blank1">
+	<StyleMap id="msn_wht-blank2">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_wht-blank0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_wht-blank0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin40">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin30</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin10">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ff00aaff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>33ffffff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_wht-blank2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wht-blank</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
 			<styleUrl>#sh_wht-blank1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin3">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin11">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ff7faa55</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>33ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin8">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ffffaa55</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>33ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="failed">
-	</Style>
-	<StyleMap id="msn_ylw-pushpin000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin40</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin12</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin12">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin9">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ff7f55ff</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>33ffffff</color>
-		</PolyStyle>
-	</Style>
 	<StyleMap id="__managed_style_150F7D05CA1EFDE95E8800">
 		<Pair>
 			<key>normal</key>
@@ -1223,7 +1068,45 @@
 			<styleUrl>#failed2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_wht-blank10">
+	<Style id="sh_wht-blank0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin60">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_wht-blank00">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1237,25 +1120,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin10">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ffffaaaa</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>33ffffff</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin11">
+	<Style id="s_ylw-pushpin10">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1264,16 +1129,24 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin12">
+	<StyleMap id="msn_ylw-pushpin50">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin60</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin11">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>ff7faa55</color>
 			<width>2</width>
@@ -1282,56 +1155,34 @@
 			<color>33ffffff</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="__managed_style_0F82181DC01EFDE95E8A">
+	<StyleMap id="msn_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_1D86ACEA341EFDE95E8A</styleUrl>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_2F9B48C4A01EFDE95E8A</styleUrl>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin11">
+	<StyleMap id="m_ylw-pushpin4">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin8</styleUrl>
+			<styleUrl>#s_ylw-pushpin30</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+			<styleUrl>#s_ylw-pushpin_hl4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ylw-pushpin30">
+	<Style id="s_ylw-pushpin_hl4">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>1.3</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<LineStyle>
-			<color>ff0000ff</color>
-			<width>5</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin13">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ff00aaaa</color>
-			<width>2</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>33ffffff</color>
-		</PolyStyle>
 	</Style>
 	<Style id="s_ylw-pushpin1">
 		<IconStyle>
@@ -1346,39 +1197,37 @@
 			<width>5</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin12">
+	<StyleMap id="msn_ylw-pushpin2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin12</styleUrl>
+			<styleUrl>#sn_ylw-pushpin00</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin11</styleUrl>
+			<styleUrl>#sh_ylw-pushpin7</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="s_ylw-pushpin30">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin60">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff00ff00</color>
-			<width>5</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin00">
+	<StyleMap id="__managed_style_150F7D05CA1EFDE95E880">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_2044533DCE1EFDE95E88</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0FCBC1EBE81EFDE95E89</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_wht-blank0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin6">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1386,8 +1235,25 @@
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+		<LineStyle>
+			<color>ff7f55ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>33ffffff</color>
+		</PolyStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin40">
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin11">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1409,28 +1275,7 @@
 			<width>5</width>
 		</LineStyle>
 	</Style>
-	<Style id="failed1">
-	</Style>
-	<StyleMap id="__managed_style_150F7D05CA1EFDE95E880">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_2044533DCE1EFDE95E88</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_0FCBC1EBE81EFDE95E89</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl21">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin4">
+	<Style id="sn_ylw-pushpin10">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1439,11 +1284,82 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>ff0000ff</color>
+			<color>ffffaaaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>33ffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7faaaa</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>33ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
 			<width>5</width>
 		</LineStyle>
 	</Style>
-	<Style id="sn_wht-blank00">
+	<StyleMap id="msn_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin_hl30">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="__managed_style_150F7D05CA1EFDE95E8801">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wht-blank10">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1457,7 +1373,164 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin21">
+	<Style id="sn_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_wht-blank3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin00">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin30">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wht-blank4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wht-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wht-blank0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wht-blank000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_wht-blank3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/wht-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin01">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl00">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="failed3">
+	</Style>
+	<Style id="sh_ylw-pushpin7">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -1466,16 +1539,24 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin13">
+	<StyleMap id="msn_ylw-pushpin01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin3">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
 		<LineStyle>
 			<color>ff7faaff</color>
 			<width>2</width>
@@ -1483,6 +1564,38 @@
 		<PolyStyle>
 			<color>33ffffff</color>
 		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin01">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl300">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
 	</Style>
 	<Folder>
 		<name>州</name>
@@ -1546,7 +1659,7 @@
 		</Placemark>
 		<Placemark>
 			<name>荆州</name>
-			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<styleUrl>#msn_ylw-pushpin01</styleUrl>
 			<Polygon>
 				<tessellate>1</tessellate>
 				<outerBoundaryIs>
@@ -1617,15 +1730,12 @@
 	</Folder>
 	<Folder id="0B830A1A8E1EFA5D6015">
 		<name>155年</name>
-		<visibility>0</visibility>
 		<styleUrl>#__managed_style_074624D44F1EFDE95E87</styleUrl>
 		<Folder id="0D402B76B41EFA5D97F5">
 			<name>魏国</name>
-			<visibility>0</visibility>
 			<styleUrl>#__managed_style_074624D44F1EFDE95E87</styleUrl>
 			<Placemark id="00BA2414601EFA5E2F1F">
 				<name>曹操</name>
-				<visibility>0</visibility>
 				<description><![CDATA[<div>155年，曹操出生于沛国谯县（今安徽亳州）的一个宦官家族，养祖父是宦官曹腾，历侍四代天子，汉桓帝时封为费亭侯。父亲曹嵩是曹腾养子，汉灵帝时官至太尉。《三国志》中记载曹操远祖是汉代初期的相国曹参，但是裴松之注曰：“嵩，夏侯氏之子，夏侯惇之叔父。太祖于惇为从父兄弟”；曹操身世众说纷纭。<br></div>]]></description>
 				<LookAt>
 					<longitude>115.7933582874132</longitude>
@@ -1646,15 +1756,12 @@
 	</Folder>
 	<Folder id="031D51DDEE1EFA53C5E4">
 		<name>174年</name>
-		<visibility>0</visibility>
 		<styleUrl>#__managed_style_074624D44F1EFDE95E87</styleUrl>
 		<Folder id="0606B49E781EFA52C8AD">
 			<name>魏国</name>
-			<visibility>0</visibility>
 			<styleUrl>#__managed_style_074624D44F1EFDE95E87</styleUrl>
 			<Placemark id="00382E88D81EFA5A5324">
 				<name>曹操</name>
-				<visibility>0</visibility>
 				<description><![CDATA[<div>174年<br></div><div>年 二十， 举 孝廉 为 郎， 除 洛阳 北部 尉， 迁 顿 丘 令， 征 拜 议 郎。 <br></div><div><br></div><div>陈寿; 裴松之. 三国志<br></div>]]></description>
 				<LookAt>
 					<longitude>112.4481578257176</longitude>
@@ -1675,11 +1782,9 @@
 	</Folder>
 	<Folder id="05624F7A111EFA68237C">
 		<name>177年</name>
-		<visibility>0</visibility>
 		<styleUrl>#__managed_style_0F82181DC01EFDE95E8A</styleUrl>
 		<Placemark id="0E864A0CED1EFA69DE47">
 			<name>曹操</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<div>177年，曹操被任命为顿丘令，第二年，曹操因堂妹夫滁强侯宋奇被宦官诛杀，受到牵连，被免去官职。<br></div>]]></description>
 			<LookAt>
 				<longitude>115.1575735482898</longitude>
@@ -1699,11 +1804,9 @@
 	</Folder>
 	<Folder id="0ABE703F191EFA6D6885">
 		<name>178年</name>
-		<visibility>0</visibility>
 		<styleUrl>#__managed_style_074624D44F1EFDE95E87</styleUrl>
 		<Placemark id="05D46C9B121EFA6E2A9C">
 			<name>曹操</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<div>178年，在洛阳无事可做，回到家乡谯县闲居<br></div>]]></description>
 			<LookAt>
 				<longitude>115.7886514875533</longitude>
@@ -1723,15 +1826,12 @@
 	</Folder>
 	<Folder id="05C1DD3F161EFA7017CC">
 		<name>180年</name>
-		<visibility>0</visibility>
 		<styleUrl>#__managed_style_074624D44F1EFDE95E87</styleUrl>
 		<Folder>
 			<name>曹操驻东武阳</name>
-			<visibility>0</visibility>
 			<description>曹操听从鲍信的建议，想避开袁绍新占的冀州，往黄河南边的兖州进行发展。这时黑山军于毒、白绕、眭固等十余万众攻略魏郡、东郡，东郡太守王肱无法抵抗，曹操趁机让袁绍让自己前往东郡，并顺利的在濮阳击败白绕。袁绍于是上表曹操为东郡太守，屯驻东武阳。</description>
 			<Placemark>
 				<name>曹操</name>
-				<visibility>0</visibility>
 				<description>这时黑山军于毒、白绕、眭固等十余万众攻略魏郡、东郡，东郡太守王肱无法抵抗，曹操趁机让袁绍让自己前往东郡，并顺利的在濮阳击败白绕。</description>
 				<LookAt>
 					<longitude>114.5327774614799</longitude>
@@ -1750,7 +1850,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操</name>
-				<visibility>0</visibility>
 				<description>袁绍于是上表曹操为东郡太守，屯驻东武阳。</description>
 				<LookAt>
 					<longitude>114.7240210991534</longitude>
@@ -1769,7 +1868,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操离开袁绍</name>
-				<visibility>0</visibility>
 				<styleUrl>#msn_ylw-pushpin7</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
@@ -1781,7 +1879,6 @@
 		</Folder>
 		<Placemark id="0B9ECE7E961EFA705EDB">
 			<name>曹操</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<div>180年，曹操又被朝廷征召，任命为议郎。<br></div>]]></description>
 			<LookAt>
 				<longitude>112.4664821548412</longitude>
@@ -1801,11 +1898,9 @@
 	</Folder>
 	<Folder id="0165969A501EFA72376D">
 		<name>184年</name>
-		<visibility>0</visibility>
 		<styleUrl>#__managed_style_074624D44F1EFDE95E87</styleUrl>
 		<Placemark id="0F16B32E771EFA76400C">
 			<name>曹操</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<div>中平元年（184年）二月，太平道首领张角聚众起义，黄巾之乱爆发，朝廷任命曹操为骑都尉，前往颍川郡镇压叛乱。由于镇压黄巾军有功，升任济南相，任职后罢免贪污官员约八成，并且严令禁止当时盛行的宗教迷信。[22]据说因为曹操当政素称严明，济南郡一带作乱之徒听说曹操要来，都纷纷潜逃到别的郡县。曹操被任命为东郡太守，但是曹操没有就任，自称在担任济南相期间的行为得罪十常侍和地方豪强，害怕引起报复，称病回乡，在谯县东部五十里建筑精舍，上半年研读书籍传记，下半年以打猎为自己娱兴[23]，同时也谢绝宾客来访[24]。当时天下纷乱，先是发生冀州刺史王芬联合南阳许攸、沛国周旌等地方豪强，谋划废黜灵帝立合肥侯的事件。王芬等人曾经希望曹操加入他们，但被曹操拒绝，[25]后来王芬事败自杀。接着，又有西北金城郡（今甘肃兰州）的边章、韩遂杀死刺史和太守，率兵十余万反叛朝廷。<br></div>]]></description>
 			<LookAt>
 				<longitude>112.5783440378215</longitude>
@@ -1824,7 +1919,6 @@
 		</Placemark>
 		<Placemark>
 			<name>许攸</name>
-			<visibility>0</visibility>
 			<description>当时天下纷乱，先是发生冀州刺史王芬联合南阳许攸、沛国周旌等地方豪强，谋划废黜灵帝立合肥侯的事件。</description>
 			<LookAt>
 				<longitude>112.031654700308</longitude>
@@ -1843,7 +1937,6 @@
 		</Placemark>
 		<Placemark>
 			<name>王芬</name>
-			<visibility>0</visibility>
 			<description>当时天下纷乱，先是发生冀州刺史王芬联合南阳许攸、沛国周旌等地方豪强，谋划废黜灵帝立合肥侯的事件。</description>
 			<LookAt>
 				<longitude>114.4685347735315</longitude>
@@ -1862,7 +1955,6 @@
 		</Placemark>
 		<Placemark>
 			<name>周旌</name>
-			<visibility>0</visibility>
 			<description>当时天下纷乱，先是发生冀州刺史王芬联合南阳许攸、沛国周旌等地方豪强，谋划废黜灵帝立合肥侯的事件。</description>
 			<LookAt>
 				<longitude>117.2379497691794</longitude>
@@ -1882,11 +1974,9 @@
 	</Folder>
 	<Folder id="0CEA3D5FC31EFA77FD41">
 		<name>188年</name>
-		<visibility>0</visibility>
 		<styleUrl>#__managed_style_074624D44F1EFDE95E87</styleUrl>
 		<Placemark id="06BB47F0E61EFA7E045D">
 			<name>曹操</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<div>188年，汉灵帝组建西园军，曹操被起用为典军校尉，并派往家乡募兵，结果中途士兵叛乱，袭击曹操，曹操负伤逃脱。<br></div>]]></description>
 			<LookAt>
 				<longitude>114.6241343349558</longitude>
@@ -1906,11 +1996,9 @@
 	</Folder>
 	<Folder id="05F796796B1EFA7FB76E">
 		<name>189年</name>
-		<visibility>0</visibility>
 		<styleUrl>#__managed_style_074624D44F1EFDE95E87</styleUrl>
 		<Placemark id="059CE24EEB1EFA8167F7">
 			<name>曹操</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<div>189年，在位22年的汉灵帝驾崩，终年34岁，太子刘辩登基，何太后临朝听政。大将军何进想趁宦官失势之机诛灭阉党，但是没有取得太后的支持。于是何进便召时任并州刺史的董卓进京，胁迫太后同意。然而此举打草惊蛇，董卓尚未抵达京城，何进已经被宦官下手谋杀，随后宦官十常侍也被袁绍等人诛杀。同年九月，董卓入京，诛杀丁原，逼走袁绍，执掌朝政。废少帝刘辩为弘农王，改立其弟陈留王刘协为皇帝，是为汉献帝，京城陷入混乱。为了稳定局面，董卓想拉拢曹操，上表奏请曹操为骁骑校尉。但是，曹操没有接受董卓所封的官职，害怕惹祸上身，更名改姓，潜逃出洛阳。曹操逃亡到成皋，投奔故人吕伯奢家，吕伯奢不在，其子招待曹操。曹操听见有食器声音，以为吕伯奢儿子要抓捕自己献给官府，干脆将吕伯奢五个儿子和吕家2名宾客全部杀死。事后曹操发现自己是误杀，于是说“宁我负人，毋人负我！”来安慰自己[27][28][29]。曹操杀死吕伯奢儿子离开后，道逢二人，容貌威武，曹操避让。二人笑着对曹操说：“感觉你很害怕，为什么呀？”曹操觉得诧异，把刚才杀人的事全盘托出。临别前，曹操解佩刀送给二人并说：“以此表吾丹心，愿二贤慎勿言。”[30]曹操继续向东逃亡，经过中牟县时，被亭长怀疑是逃亡的罪犯，于是将曹操抓去见县令。乡野中有人认得这人就是曹操，就拜托县令杨原把曹操给放走[31][32]。<br></div>]]></description>
 			<LookAt>
 				<longitude>114.0310778445296</longitude>
@@ -1930,11 +2018,9 @@
 	</Folder>
 	<Folder id="052685DA011EFA862AFF">
 		<name>190年</name>
-		<visibility>0</visibility>
 		<styleUrl>#__managed_style_074624D44F1EFDE95E87</styleUrl>
 		<Placemark>
 			<name>董卓</name>
-			<visibility>0</visibility>
 			<description>东汉献帝初平元年（公元190年），持异议的地方官和军阀组成联军对抗控制汉献帝的国相董卓。</description>
 			<LookAt>
 				<longitude>110.1563846515289</longitude>
@@ -1953,10 +2039,8 @@
 		</Placemark>
 		<Folder>
 			<name>荥阳之战 (190年)</name>
-			<visibility>0</visibility>
 			<Placemark id="0198483D181EFA859BB0">
 				<name>曹操 举兵</name>
-				<visibility>0</visibility>
 				<description>189年十二月，在回到陈留郡之后，曹操散尽家财征募乡勇，甚至亲自和刀匠一同制作武器[33]，豪强卫兹也倾家财助之，曹操率先于己吾揭竿举义，讨伐董卓。初平元年（190年）正月，董卓讨伐战开始，勃海太守袁绍、后将军袁术、冀州牧韩馥、豫州刺史孔伷、河内太守王匡、兖州刺史刘岱、陈留太守张邈、东郡太守桥瑁、山阳太守袁遗、济北国相鲍信等地方势力，举兵反董，群雄推举袁绍为盟主。曹操则行使奋武将军之职。此次战役中，曹操跟随诸将驻扎酸枣，当时天下英雄豪杰，都以袁绍马首是瞻，只有鲍信认为曹操是拨乱反正的雄才。而鲍信的推算也没有错，在董卓焚烧洛阳，挟持汉献帝与百官迁都长安之后，袁绍等各军将领都畏惧董卓而按兵不动，谁也不敢先发动攻击，唯有曹操单独引兵西行。</description>
 				<LookAt>
 					<longitude>114.180176223507</longitude>
@@ -1975,7 +2059,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操进军</name>
-				<visibility>0</visibility>
 				<description>曹操争取到了袁绍和军阀张邈帐下曹操的朋友卫兹和骑都尉（联军假授破虏将军）鲍信及兖州、豫州军队的合作，从酸枣西进，意图占领成皋。[5][6]
 
 战役
@@ -1990,7 +2073,6 @@
 			</Placemark>
 			<Placemark>
 				<name>卫兹</name>
-				<visibility>0</visibility>
 				<description>战死</description>
 				<LookAt>
 					<longitude>113.7166124845789</longitude>
@@ -2009,7 +2091,6 @@
 			</Placemark>
 			<Placemark id="081D8B927D1EFA8A9A0C">
 				<name>曹操 曹洪</name>
-				<visibility>0</visibility>
 				<description>190年，张邈派部将卫兹率领一部分兵力跟随曹操，曹操打算夺取成皋，在抵达荥阳汴水时，和董卓部将徐荣遭遇，大败，士卒死伤众多。战中，曹操被流矢射中，所骑战马受伤倒下，幸而曹洪把自己的坐骑让给曹操，且步行随侍保护，才能乘夜逃走。也是因为这战，徐荣发现曹操以这么少的兵力，都能奋战一整天，判断酸枣不易攻下，因此也向后撤退。
 
 曹操和卫兹的军队进军到经洛阳途中的重要补给站荥阳治下的汴河，在那里遭遇徐荣率领的敌军。经过一日激战，由家臣和掠夺者等下等人组成的联军根本不是董卓部下职业边军的对手。[7]联军惨败，死伤甚多，卫兹、鲍韬阵亡，鲍信负伤。此外，曹操也被流矢所中，他的马也受了伤。从弟曹洪把马给曹操，但曹操起初并不接受。曹洪说：“天下可以没有我曹洪，但不能没有你。”</description>
@@ -2029,7 +2110,6 @@
 			</Placemark>
 			<Placemark>
 				<name>徐荣</name>
-				<visibility>0</visibility>
 				<description>曹操和卫兹的军队进军到经洛阳途中的重要补给站荥阳治下的汴河，在那里遭遇徐荣率领的敌军。经过一日激战，由家臣和掠夺者等下等人组成的联军根本不是董卓部下职业边军的对手。[7]联军惨败，死伤甚多，卫兹、鲍韬阵亡，鲍信负伤。此外，曹操也被流矢所中，他的马也受了伤。</description>
 				<LookAt>
 					<longitude>113.8191948358096</longitude>
@@ -2048,7 +2128,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操撤军</name>
-				<visibility>0</visibility>
 				<description>曹洪步行跟随曹操，他们趁夜撤回酸枣。[9]</description>
 				<styleUrl>#msn_ylw-pushpin50</styleUrl>
 				<LineString>
@@ -2061,11 +2140,9 @@
 		</Folder>
 		<Folder>
 			<name>曹操扬州征兵</name>
-			<visibility>0</visibility>
 			<description>曹操因为士兵多死在荥阳之战，只好跟司马夏侯惇等，前往扬州募兵，扬州刺史陈温、丹阳太守周昕给予曹操四千余人。行军至龙亢，士卒叛变，趁夜焚烧曹操营帐，曹操亲手斩杀数十人，才出营帐，没有参与叛变的仅剩五百余人。又行军到铚、建平一带，集结残兵一千余人，投奔袁绍，前来河内驻守。</description>
 			<Placemark>
 				<name>曹操 夏侯惇</name>
-				<visibility>0</visibility>
 				<description>曹操因为士兵多死在荥阳之战，只好跟司马夏侯惇等，前往扬州募兵，扬州刺史陈温、丹阳太守周昕给予曹操四千余人。</description>
 				<Camera>
 					<longitude>116.1918673392278</longitude>
@@ -2084,7 +2161,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操 夏侯惇</name>
-				<visibility>0</visibility>
 				<description>行军至龙亢，士卒叛变，趁夜焚烧曹操营帐，曹操亲手斩杀数十人，才出营帐，没有参与叛变的仅剩五百余人。</description>
 				<LookAt>
 					<longitude>116.9564011821533</longitude>
@@ -2103,7 +2179,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操 夏侯惇</name>
-				<visibility>0</visibility>
 				<description>行军到铚、建平一带，集结残兵一千余人</description>
 				<LookAt>
 					<longitude>117.4453495827499</longitude>
@@ -2122,7 +2197,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操 夏侯惇 袁绍</name>
-				<visibility>0</visibility>
 				<description>投奔袁绍，前来河内驻守。</description>
 				<LookAt>
 					<longitude>115.8212984322969</longitude>
@@ -2141,7 +2215,6 @@
 			</Placemark>
 			<Placemark>
 				<name>扬州征兵</name>
-				<visibility>0</visibility>
 				<description>曹操因为士兵多死在荥阳之战，只好跟司马夏侯惇等，前往扬州募兵，扬州刺史陈温、丹阳太守周昕给予曹操四千余人。行军至龙亢，士卒叛变，趁夜焚烧曹操营帐，曹操亲手斩杀数十人，才出营帐，没有参与叛变的仅剩五百余人。又行军到铚、建平一带，集结残兵一千余人，投奔袁绍，前来河内驻守。</description>
 				<styleUrl>#msn_ylw-pushpin50</styleUrl>
 				<LineString>
@@ -2153,7 +2226,6 @@
 			</Placemark>
 			<Placemark>
 				<name>陈温 周昕</name>
-				<visibility>0</visibility>
 				<description>扬州刺史陈温、丹阳太守周昕给予曹操四千余人</description>
 				<LookAt>
 					<longitude>117.4007215341898</longitude>
@@ -2174,7 +2246,6 @@
 	</Folder>
 	<Folder>
 		<name>192年</name>
-		<open>1</open>
 		<Folder>
 			<name>曹操安东郡</name>
 			<Placemark>
@@ -2505,13 +2576,10 @@
 	</Folder>
 	<Folder>
 		<name>193年</name>
-		<visibility>0</visibility>
 		<Folder>
 			<name>匡亭之战 封丘之战</name>
-			<visibility>0</visibility>
 			<Placemark>
 				<name>袁术进军</name>
-				<visibility>0</visibility>
 				<styleUrl>#msn_ylw-pushpin7</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
@@ -2522,7 +2590,6 @@
 			</Placemark>
 			<Placemark>
 				<name>袁术败逃</name>
-				<visibility>0</visibility>
 				<styleUrl>#msn_ylw-pushpin40</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
@@ -2533,7 +2600,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操</name>
-				<visibility>0</visibility>
 				<description>曹操军屯于鄄城</description>
 				<LookAt>
 					<longitude>116.2162891901347</longitude>
@@ -2552,7 +2618,6 @@
 			</Placemark>
 			<Placemark>
 				<name>袁术</name>
-				<visibility>0</visibility>
 				<description>荆州牧刘表断了袁术的粮道，袁术率所部进入陈留，驻封丘</description>
 				<LookAt>
 					<longitude>115.1413660657332</longitude>
@@ -2571,7 +2636,6 @@
 			</Placemark>
 			<Placemark>
 				<name>刘表</name>
-				<visibility>0</visibility>
 				<description>荆州牧刘表断了袁术的粮道，袁术率所部进入陈留，驻封丘</description>
 				<LookAt>
 					<longitude>115.2629149814398</longitude>
@@ -2590,7 +2654,6 @@
 			</Placemark>
 			<Placemark>
 				<name>匈奴酋长於夫罗予</name>
-				<visibility>0</visibility>
 				<description>袁术率所部进入陈留，驻封丘，黑山军余部和匈奴酋长於夫罗予以援助。</description>
 				<LookAt>
 					<longitude>116.106527871848</longitude>
@@ -2609,7 +2672,6 @@
 			</Placemark>
 			<Placemark>
 				<name>刘详</name>
-				<visibility>0</visibility>
 				<description>冀州牧袁绍与曹操合兵攻打袁术。袁术派部将刘详驻匡亭.</description>
 				<LookAt>
 					<longitude>114.8780981865785</longitude>
@@ -2628,7 +2690,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操</name>
-				<visibility>0</visibility>
 				<description>曹操攻刘详，袁术救匡亭但被击败，退守封丘。</description>
 				<LookAt>
 					<longitude>114.8312572680651</longitude>
@@ -2647,7 +2708,6 @@
 			</Placemark>
 			<Placemark>
 				<name>袁术</name>
-				<visibility>0</visibility>
 				<description>曹操攻刘详，袁术救匡亭但被击败，退守封丘。</description>
 				<LookAt>
 					<longitude>114.8312572680651</longitude>
@@ -2666,7 +2726,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操</name>
-				<visibility>0</visibility>
 				<description>曹操趁袁术未能完成调兵进围封丘</description>
 				<LookAt>
 					<longitude>114.6469437463017</longitude>
@@ -2685,7 +2744,6 @@
 			</Placemark>
 			<Placemark>
 				<name>袁术</name>
-				<visibility>0</visibility>
 				<description>袁术逃往襄邑</description>
 				<LookAt>
 					<longitude>114.9469225004081</longitude>
@@ -2704,7 +2762,6 @@
 			</Placemark>
 			<Placemark>
 				<name>袁术</name>
-				<visibility>0</visibility>
 				<description>袁术逃往宁陵再被追上</description>
 				<LookAt>
 					<longitude>115.2122556926565</longitude>
@@ -2723,7 +2780,6 @@
 			</Placemark>
 			<Placemark>
 				<name>袁术</name>
-				<visibility>0</visibility>
 				<description>退保雍丘</description>
 				<LookAt>
 					<longitude>114.7828302063041</longitude>
@@ -2742,7 +2798,6 @@
 			</Placemark>
 			<Placemark>
 				<name>袁术</name>
-				<visibility>0</visibility>
 				<description>率领余部前往九江，杀了朝廷任命的扬州刺史陈温自领其州。</description>
 				<LookAt>
 					<longitude>117.9738712940629</longitude>
@@ -2761,7 +2816,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操</name>
-				<visibility>0</visibility>
 				<LookAt>
 					<longitude>115.2989615714749</longitude>
 					<latitude>34.7260511140145</latitude>
@@ -2779,7 +2833,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>115.2989615714749</longitude>
@@ -2798,7 +2851,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>115.2989615714749</longitude>
@@ -2817,7 +2869,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<LookAt>
 					<longitude>116.8472200775114</longitude>
@@ -2836,7 +2887,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操</name>
-				<visibility>0</visibility>
 				<description>夏季，曹操最终撤本部军马回定陶。</description>
 				<LookAt>
 					<longitude>116.48022895949</longitude>
@@ -2855,7 +2905,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操进军</name>
-				<visibility>0</visibility>
 				<styleUrl>#msn_ylw-pushpin10</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
@@ -2867,10 +2916,8 @@
 		</Folder>
 		<Folder>
 			<name>曹操屠徐州</name>
-			<visibility>0</visibility>
 			<Placemark>
 				<name>陶谦</name>
-				<visibility>0</visibility>
 				<description>秋，陶谦攻打兖州东部泰山郡，使得曹操父亲曹嵩被杀。对于曹嵩之死，存在争议。[35]为此事，曹操开始攻击徐州牧陶谦，并得到袁绍相助[36]。曹操打到彭城，陶谦不敌退保郯县，曹操在徐州大屠杀[37]:33。《后汉书》对此事描录“凡杀男女数十万人，鸡犬无余，泗水为之不流[38]”。</description>
 				<Camera>
 					<longitude>117.0325704761297</longitude>
@@ -2889,7 +2936,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹嵩</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<description>秋，陶谦攻打兖州东部泰山郡，使得曹操父亲曹嵩被杀。对于曹嵩之死，存在争议。[35]为此事，曹操开始攻击徐州牧陶谦，并得到袁绍相助[36]。曹操打到彭城，陶谦不敌退保郯县，曹操在徐州大屠杀[37]:33。《后汉书》对此事描录“凡杀男女数十万人，鸡犬无余，泗水为之不流[38]”。</description>
 				<Camera>
@@ -2901,7 +2947,7 @@
 					<roll>0.9859754947858399</roll>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</Camera>
-				<styleUrl>#msn_wht-blank</styleUrl>
+				<styleUrl>#msn_wht-blank3</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>117.1475209898824,36.07047021592456,0</coordinates>
@@ -2909,7 +2955,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操</name>
-				<visibility>0</visibility>
 				<description>曹操开始攻击徐州牧陶谦，并得到袁绍相助[36]。曹操打到彭城，陶谦不敌退保郯县，曹操在徐州大屠杀[37]:33。《后汉书》对此事描录“凡杀男女数十万人，鸡犬无余，泗水为之不流[38]”。</description>
 				<Camera>
 					<longitude>117.7301987971733</longitude>
@@ -2928,7 +2973,6 @@
 			</Placemark>
 			<Placemark>
 				<name>陶谦</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<description>曹操开始攻击徐州牧陶谦，并得到袁绍相助[36]。曹操打到彭城，陶谦不敌退保郯县，曹操在徐州大屠杀[37]:33。《后汉书》对此事描录“凡杀男女数十万人，鸡犬无余，泗水为之不流[38]”。</description>
 				<Camera>
@@ -2948,7 +2992,6 @@
 			</Placemark>
 			<Placemark>
 				<name>陶谦</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<description>曹操开始攻击徐州牧陶谦，并得到袁绍相助[36]。曹操打到彭城，陶谦不敌退保郯县，曹操在徐州大屠杀[37]:33。《后汉书》对此事描录“凡杀男女数十万人，鸡犬无余，泗水为之不流[38]”。</description>
 				<Camera>
@@ -2968,8 +3011,7 @@
 			</Placemark>
 			<Placemark>
 				<name>陶谦撤军</name>
-				<visibility>0</visibility>
-				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<styleUrl>#m_ylw-pushpin000</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
 					<coordinates>
@@ -2981,13 +3023,10 @@
 	</Folder>
 	<Folder>
 		<name>194年</name>
-		<visibility>0</visibility>
 		<Folder>
 			<name>曹操战陶谦刘备</name>
-			<visibility>0</visibility>
 			<Placemark>
 				<name>荀彧</name>
-				<visibility>0</visibility>
 				<description>興平元年（194年），曹操以荀彧、程昱留守，再攻陶謙，進逼東海、琅邪</description>
 				<Camera>
 					<longitude>115.7131318616759</longitude>
@@ -2998,7 +3037,7 @@
 					<roll>-1.992622038526964</roll>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</Camera>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>115.5172386758216,35.22857717998299,0</coordinates>
@@ -3006,7 +3045,6 @@
 			</Placemark>
 			<Placemark>
 				<name>程昱</name>
-				<visibility>0</visibility>
 				<description>興平元年（194年），曹操以荀彧、程昱留守，再攻陶謙，進逼東海、琅邪</description>
 				<Camera>
 					<longitude>115.7131318616759</longitude>
@@ -3017,7 +3055,7 @@
 					<roll>-1.992622038526964</roll>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</Camera>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>115.5172386758216,35.22857717998299,0</coordinates>
@@ -3025,7 +3063,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操</name>
-				<visibility>0</visibility>
 				<description>興平元年（194年），曹操以荀彧、程昱留守，再攻陶謙，進逼東海、琅邪</description>
 				<Camera>
 					<longitude>115.7131318616759</longitude>
@@ -3036,7 +3073,7 @@
 					<roll>-1.992622038526964</roll>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</Camera>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>115.5172386758216,35.22857717998299,0</coordinates>
@@ -3044,7 +3081,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操</name>
-				<visibility>0</visibility>
 				<description>在郯縣大破前來幫忙陶謙的劉備，嚇得陶謙差點逃回丹陽。</description>
 				<Camera>
 					<longitude>117.7175304753092</longitude>
@@ -3055,7 +3091,7 @@
 					<roll>-1.833604236331308</roll>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</Camera>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>118.3460584095168,34.57282306744897,0</coordinates>
@@ -3063,7 +3099,6 @@
 			</Placemark>
 			<Placemark>
 				<name>陶谦</name>
-				<visibility>0</visibility>
 				<description>在郯縣大破前來幫忙陶謙的劉備，嚇得陶謙差點逃回丹陽。</description>
 				<Camera>
 					<longitude>117.7175304753092</longitude>
@@ -3074,7 +3109,7 @@
 					<roll>-1.833604236331308</roll>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</Camera>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>118.3460584095168,34.57282306744897,0</coordinates>
@@ -3082,7 +3117,6 @@
 			</Placemark>
 			<Placemark>
 				<name>刘备</name>
-				<visibility>0</visibility>
 				<description>在郯縣大破前來幫忙陶謙的劉備，嚇得陶謙差點逃回丹陽。</description>
 				<Camera>
 					<longitude>117.7175304753092</longitude>
@@ -3093,7 +3127,7 @@
 					<roll>-1.833604236331308</roll>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</Camera>
-				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>118.3460584095168,34.57282306744897,0</coordinates>
@@ -3101,7 +3135,6 @@
 			</Placemark>
 			<Placemark>
 				<name>曹操进军</name>
-				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin2</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
@@ -3113,7 +3146,6 @@
 		</Folder>
 		<Placemark>
 			<name>吕布</name>
-			<visibility>0</visibility>
 			<description>張邈因為恐懼曹操將為袁紹殺死自己，而陳宮則因為邊讓被殺而心生恐懼，於是兩人聯合從事中郎許汜、王楷以及張邈弟張超等，奉迎呂布成為兗州牧。呂布佔據濮陽，兗州郡縣大部分都響應，等曹操回軍時，根據地只剩下鄄城、范、東阿三縣。</description>
 			<Camera>
 				<longitude>115.0521531217901</longitude>
@@ -3124,7 +3156,7 @@
 				<roll>-6.604742300820195</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</Camera>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<styleUrl>#m_ylw-pushpin00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>115.1160994227565,35.66875367368338,0</coordinates>
@@ -3133,14 +3165,10 @@
 	</Folder>
 	<Folder>
 		<name>195年</name>
-		<visibility>0</visibility>
 		<Folder>
 			<name>曹操战吕布</name>
-			<visibility>0</visibility>
-			<open>1</open>
 			<Placemark>
 				<name>曹操</name>
-				<visibility>0</visibility>
 				<description>興平二年（195年），曹操在鉅野大敗呂布部將薛蘭、李封等，呂布與陳宮捲土重來，雙方遭遇，曹操兵全出去收割小麥，只剩一千餘人，於是曹操設伏，呂布發現敵人單薄，輕裝突擊，曹操伏兵出擊，大敗呂布，乘勝攻取定陶，分兵收復諸縣</description>
 				<Camera>
 					<longitude>116.15279582115</longitude>
@@ -3159,7 +3187,6 @@
 			</Placemark>
 			<Placemark>
 				<name>吕布</name>
-				<visibility>0</visibility>
 				<open>1</open>
 				<description>興平二年（195年），曹操在鉅野大敗呂布部將薛蘭、李封等，呂布與陳宮捲土重來，雙方遭遇，曹操兵全出去收割小麥，只剩一千餘人，於是曹操設伏，呂布發現敵人單薄，輕裝突擊，曹操伏兵出擊，大敗呂布，乘勝攻取定陶，分兵收復諸縣</description>
 				<Camera>
@@ -3179,7 +3206,6 @@
 			</Placemark>
 			<Placemark>
 				<name>吕布</name>
-				<visibility>0</visibility>
 				<description>吕布逃往徐州</description>
 				<Camera>
 					<longitude>117.2095009816175</longitude>
@@ -3198,7 +3224,6 @@
 			</Placemark>
 			<Placemark>
 				<name>吕布逃往徐州</name>
-				<visibility>0</visibility>
 				<styleUrl>#m_ylw-pushpin40</styleUrl>
 				<LineString>
 					<tessellate>1</tessellate>
@@ -3210,7 +3235,6 @@
 		</Folder>
 		<Placemark>
 			<name>曹操</name>
-			<visibility>0</visibility>
 			<description>曹操圍雍丘，城破，夷張超三族。就在此時，漢獻帝封曹操為兗州牧。曹操受封兗州牧后，向漢獻帝進貢梨、椑、枣各二箱[40][41]。曹操在兗州鏖戰四年，總算得到朝廷的承認，也紮實地站穩其第一個領地。</description>
 			<Camera>
 				<longitude>115.7083344859777</longitude>
@@ -3229,7 +3253,6 @@
 		</Placemark>
 		<Placemark>
 			<name>张超</name>
-			<visibility>0</visibility>
 			<open>1</open>
 			<description>曹操圍雍丘，城破，夷張超三族。就在此時，漢獻帝封曹操為兗州牧。曹操受封兗州牧后，向漢獻帝進貢梨、椑、枣各二箱[40][41]。曹操在兗州鏖戰四年，總算得到朝廷的承認，也紮實地站穩其第一個領地。</description>
 			<Camera>
@@ -3249,7 +3272,6 @@
 		</Placemark>
 		<Placemark>
 			<name>李傕</name>
-			<visibility>0</visibility>
 			<description>195年七月，李傕与郭汜为了争权夺利，内斗不断，汉献帝趁机逃出长安，进驻安邑。</description>
 			<Camera>
 				<longitude>111.0160387902478</longitude>
@@ -3268,7 +3290,6 @@
 		</Placemark>
 		<Placemark>
 			<name>郭汜</name>
-			<visibility>0</visibility>
 			<open>1</open>
 			<description>195年七月，李傕与郭汜为了争权夺利，内斗不断，汉献帝趁机逃出长安，进驻安邑。</description>
 			<Camera>
@@ -3288,7 +3309,6 @@
 		</Placemark>
 		<Placemark>
 			<name>汉献帝</name>
-			<visibility>0</visibility>
 			<open>1</open>
 			<description>195年七月，李傕与郭汜为了争权夺利，内斗不断，汉献帝趁机逃出长安，进驻安邑。</description>
 			<Camera>
@@ -3308,7 +3328,6 @@
 		</Placemark>
 		<Placemark>
 			<name>汉献帝</name>
-			<visibility>0</visibility>
 			<open>1</open>
 			<description>195年七月，李傕与郭汜为了争权夺利，内斗不断，汉献帝趁机逃出长安，进驻安邑。</description>
 			<Camera>
@@ -3328,7 +3347,6 @@
 		</Placemark>
 		<Placemark>
 			<name>汉献帝逃亡</name>
-			<visibility>0</visibility>
 			<styleUrl>#m_ylw-pushpin</styleUrl>
 			<LineString>
 				<tessellate>1</tessellate>
@@ -3340,10 +3358,8 @@
 	</Folder>
 	<Folder>
 		<name>196年</name>
-		<visibility>0</visibility>
 		<Placemark>
 			<name>曹操</name>
-			<visibility>0</visibility>
 			<description>建安元年（196年），曹操听从谋士荀彧、毛玠建议[42][43]，前往洛阳，迎接皇帝。
 
 雖然汉献帝（或其掌权之臣）对曹操仍有疑虑，但是曹操势力击破黄巾军，表現出關心社稷的忠心。由於京師洛阳被董卓破壞，殘破不堪，漢室於八月庚午日（10月7日）遷都至颍川郡许县。</description>
@@ -3364,7 +3380,6 @@
 		</Placemark>
 		<Placemark>
 			<name>汉献帝</name>
-			<visibility>0</visibility>
 			<open>1</open>
 			<description>建安元年（196年），曹操听从谋士荀彧、毛玠建议[42][43]，前往洛阳，迎接皇帝。
 
@@ -3386,7 +3401,6 @@
 		</Placemark>
 		<Placemark>
 			<name>曹操</name>
-			<visibility>0</visibility>
 			<open>1</open>
 			<description>建安元年（196年），曹操听从谋士荀彧、毛玠建议[42][43]，前往洛阳，迎接皇帝。
 
@@ -3408,7 +3422,6 @@
 		</Placemark>
 		<Placemark>
 			<name>汉献帝</name>
-			<visibility>0</visibility>
 			<open>1</open>
 			<description>建安元年（196年），曹操听从谋士荀彧、毛玠建议[42][43]，前往洛阳，迎接皇帝。
 
@@ -3431,10 +3444,8 @@
 	</Folder>
 	<Folder>
 		<name>197年</name>
-		<visibility>0</visibility>
 		<Placemark>
 			<name>曹操</name>
-			<visibility>0</visibility>
 			<description>曹操於十一月丙戌日（197年1月1日）被任命为司空，行車騎將軍[44]，封武平侯，仍领兖州牧，开始掌控东汉朝廷的军政大权。[45]
 
 早在兖州时期，曹操就开始打算和袁绍决裂[46]。曹操控制汉献帝后，让献帝下诏书谴责袁绍地广兵多而树立党羽，不闻勤王之师而但擅相讨伐[47]。袁绍不服，上书辩解。曹操为了安抚冀州牧袁绍，上表汉献帝，封其为太尉。袁绍又不肯位列曹操之下，甚至被曹操背盟举动所激怒，说；“曹操有几次都快没命，我每次都救他，现在曹操忘恩负义，居然挟天子以令我吗？！”[48]。最后曹操让汉献帝封袁绍为大将军[49]。袁绍眼见曹操控制皇帝，借口许都潮湿，洛阳残破，要曹操迁都靠近袁绍控制区的鄄城，曹操不同意[50]。</description>
@@ -3453,14 +3464,351 @@
 				<coordinates>113.8605086593555,34.04428897311906,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>张绣</name>
+			<description>197年，曹操征讨南阳郡的张绣，张绣举众投降，之后因为曹操纳张绣叔父张济之妻邹氏，张绣对这件事感到十分痛恨，曹操得知后密谋要杀害张绣。由于计划泄漏，张绣袭击曹操，曹操在长子曹昂、侄子曹安民与校尉典韦殿后下逃亡，曹昂、曹安民与典韦阵亡。此后，曹操又两度攻击张绣，都没有彻底击破。</description>
+			<Camera>
+				<longitude>114.4545210169873</longitude>
+				<latitude>32.16469877270728</latitude>
+				<altitude>530079.4548307238</altitude>
+				<heading>0.5228124412056949</heading>
+				<tilt>12.43520112306822</tilt>
+				<roll>1.351011656223174</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>112.464355548033,32.93190905371879,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>曹操</name>
+			<open>1</open>
+			<description>197年，曹操征讨南阳郡的张绣，张绣举众投降，之后因为曹操纳张绣叔父张济之妻邹氏，张绣对这件事感到十分痛恨，曹操得知后密谋要杀害张绣。由于计划泄漏，张绣袭击曹操，曹操在长子曹昂、侄子曹安民与校尉典韦殿后下逃亡，曹昂、曹安民与典韦阵亡。此后，曹操又两度攻击张绣，都没有彻底击破。</description>
+			<Camera>
+				<longitude>114.4545210169873</longitude>
+				<latitude>32.16469877270728</latitude>
+				<altitude>530079.4548307238</altitude>
+				<heading>0.5228124412056949</heading>
+				<tilt>12.43520112306822</tilt>
+				<roll>1.351011656223174</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>112.464355548033,32.93190905371879,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>曹昂</name>
+			<open>1</open>
+			<description>197年，曹操征讨南阳郡的张绣，张绣举众投降，之后因为曹操纳张绣叔父张济之妻邹氏，张绣对这件事感到十分痛恨，曹操得知后密谋要杀害张绣。由于计划泄漏，张绣袭击曹操，曹操在长子曹昂、侄子曹安民与校尉典韦殿后下逃亡，曹昂、曹安民与典韦阵亡。此后，曹操又两度攻击张绣，都没有彻底击破。</description>
+			<Camera>
+				<longitude>114.4545210169873</longitude>
+				<latitude>32.16469877270728</latitude>
+				<altitude>530079.4548307238</altitude>
+				<heading>0.5228124412056949</heading>
+				<tilt>12.43520112306822</tilt>
+				<roll>1.351011656223174</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_wht-blank4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>112.464355548033,32.93190905371879,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>曹安民</name>
+			<description>197年，曹操征讨南阳郡的张绣，张绣举众投降，之后因为曹操纳张绣叔父张济之妻邹氏，张绣对这件事感到十分痛恨，曹操得知后密谋要杀害张绣。由于计划泄漏，张绣袭击曹操，曹操在长子曹昂、侄子曹安民与校尉典韦殿后下逃亡，曹昂、曹安民与典韦阵亡。此后，曹操又两度攻击张绣，都没有彻底击破。</description>
+			<Camera>
+				<longitude>114.4545210169873</longitude>
+				<latitude>32.16469877270728</latitude>
+				<altitude>530079.4548307238</altitude>
+				<heading>0.5228124412056949</heading>
+				<tilt>12.43520112306822</tilt>
+				<roll>1.351011656223174</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_wht-blank4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>112.464355548033,32.93190905371879,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>典韦</name>
+			<open>1</open>
+			<description>197年，曹操征讨南阳郡的张绣，张绣举众投降，之后因为曹操纳张绣叔父张济之妻邹氏，张绣对这件事感到十分痛恨，曹操得知后密谋要杀害张绣。由于计划泄漏，张绣袭击曹操，曹操在长子曹昂、侄子曹安民与校尉典韦殿后下逃亡，曹昂、曹安民与典韦阵亡。此后，曹操又两度攻击张绣，都没有彻底击破。</description>
+			<Camera>
+				<longitude>114.4545210169873</longitude>
+				<latitude>32.16469877270728</latitude>
+				<altitude>530079.4548307238</altitude>
+				<heading>0.5228124412056949</heading>
+				<tilt>12.43520112306822</tilt>
+				<roll>1.351011656223174</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_wht-blank4</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>112.464355548033,32.93190905371879,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>198年</name>
+		<Folder>
+			<name>曹操取徐州</name>
+			<Placemark>
+				<name>吕布</name>
+				<description>198年十二月，曹操用荀攸、郭嘉的计策，开决泗、沂二河之水灌入下邳，最后生擒处死吕布、陈宫与高顺，收降张辽，把徐州纳入势力范围。</description>
+				<Camera>
+					<longitude>117.4798727852639</longitude>
+					<latitude>33.86951706022578</latitude>
+					<altitude>413171.4365005708</altitude>
+					<heading>1.416002241238741</heading>
+					<tilt>2.442373999347381</tilt>
+					<roll>1.326801098712654</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_wht-blank4</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>117.8932153489153,34.06598182549514,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>陈宫</name>
+				<description>198年十二月，曹操用荀攸、郭嘉的计策，开决泗、沂二河之水灌入下邳，最后生擒处死吕布、陈宫与高顺，收降张辽，把徐州纳入势力范围。</description>
+				<Camera>
+					<longitude>117.4798727852639</longitude>
+					<latitude>33.86951706022578</latitude>
+					<altitude>413171.4365005708</altitude>
+					<heading>1.416002241238741</heading>
+					<tilt>2.442373999347381</tilt>
+					<roll>1.326801098712654</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_wht-blank4</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>117.8932153489153,34.06598182549514,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>高顺</name>
+				<description>198年十二月，曹操用荀攸、郭嘉的计策，开决泗、沂二河之水灌入下邳，最后生擒处死吕布、陈宫与高顺，收降张辽，把徐州纳入势力范围。</description>
+				<Camera>
+					<longitude>117.4798727852639</longitude>
+					<latitude>33.86951706022578</latitude>
+					<altitude>413171.4365005708</altitude>
+					<heading>1.416002241238741</heading>
+					<tilt>2.442373999347381</tilt>
+					<roll>1.326801098712654</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_wht-blank4</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>117.8932153489153,34.06598182549514,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>张辽</name>
+				<description>198年十二月，曹操用荀攸、郭嘉的计策，开决泗、沂二河之水灌入下邳，最后生擒处死吕布、陈宫与高顺，收降张辽，把徐州纳入势力范围。</description>
+				<Camera>
+					<longitude>117.4798727852639</longitude>
+					<latitude>33.86951706022578</latitude>
+					<altitude>413171.4365005708</altitude>
+					<heading>1.416002241238741</heading>
+					<tilt>2.442373999347381</tilt>
+					<roll>1.326801098712654</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>117.8932153489153,34.06598182549514,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>荀攸</name>
+				<description>198年十二月，曹操用荀攸、郭嘉的计策，开决泗、沂二河之水灌入下邳，最后生擒处死吕布、陈宫与高顺，收降张辽，把徐州纳入势力范围。</description>
+				<Camera>
+					<longitude>117.4798727852639</longitude>
+					<latitude>33.86951706022578</latitude>
+					<altitude>413171.4365005708</altitude>
+					<heading>1.416002241238741</heading>
+					<tilt>2.442373999347381</tilt>
+					<roll>1.326801098712654</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>117.8932153489153,34.06598182549514,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>曹操</name>
+				<description>198年十二月，曹操用荀攸、郭嘉的计策，开决泗、沂二河之水灌入下邳，最后生擒处死吕布、陈宫与高顺，收降张辽，把徐州纳入势力范围。</description>
+				<Camera>
+					<longitude>117.4798727852639</longitude>
+					<latitude>33.86951706022578</latitude>
+					<altitude>413171.4365005708</altitude>
+					<heading>1.416002241238741</heading>
+					<tilt>2.442373999347381</tilt>
+					<roll>1.326801098712654</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>117.8932153489153,34.06598182549514,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>郭嘉</name>
+				<description>198年十二月，曹操用荀攸、郭嘉的计策，开决泗、沂二河之水灌入下邳，最后生擒处死吕布、陈宫与高顺，收降张辽，把徐州纳入势力范围。</description>
+				<Camera>
+					<longitude>117.4798727852639</longitude>
+					<latitude>33.86951706022578</latitude>
+					<altitude>413171.4365005708</altitude>
+					<heading>1.416002241238741</heading>
+					<tilt>2.442373999347381</tilt>
+					<roll>1.326801098712654</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>117.8932153489153,34.06598182549514,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+	<Folder>
+		<name>199年</name>
+		<Folder>
+			<name>曹操取河内</name>
+			<Placemark>
+				<name>史涣</name>
+				<description>199年，曹操派史涣、曹仁、于禁和徐晃击破张杨旧部眭固，取得河内郡，把势力范围扩张到黄河以北。</description>
+				<Camera>
+					<longitude>113.0156561393577</longitude>
+					<latitude>35.46453525890103</latitude>
+					<altitude>807446.8270530007</altitude>
+					<heading>-0.4256674736369764</heading>
+					<tilt>0</tilt>
+					<roll>0</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>113.4119701994914,35.00311783537902,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>曹仁</name>
+				<description>199年，曹操派史涣、曹仁、于禁和徐晃击破张杨旧部眭固，取得河内郡，把势力范围扩张到黄河以北。</description>
+				<Camera>
+					<longitude>113.0156561393577</longitude>
+					<latitude>35.46453525890103</latitude>
+					<altitude>807446.8270530007</altitude>
+					<heading>-0.4256674736369764</heading>
+					<tilt>0</tilt>
+					<roll>0</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>113.4119701994914,35.00311783537902,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>于禁</name>
+				<description>199年，曹操派史涣、曹仁、于禁和徐晃击破张杨旧部眭固，取得河内郡，把势力范围扩张到黄河以北。</description>
+				<Camera>
+					<longitude>113.0156561393577</longitude>
+					<latitude>35.46453525890103</latitude>
+					<altitude>807446.8270530007</altitude>
+					<heading>-0.4256674736369764</heading>
+					<tilt>0</tilt>
+					<roll>0</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>113.4119701994914,35.00311783537902,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>徐晃</name>
+				<description>199年，曹操派史涣、曹仁、于禁和徐晃击破张杨旧部眭固，取得河内郡，把势力范围扩张到黄河以北。</description>
+				<Camera>
+					<longitude>113.0156561393577</longitude>
+					<latitude>35.46453525890103</latitude>
+					<altitude>807446.8270530007</altitude>
+					<heading>-0.4256674736369764</heading>
+					<tilt>0</tilt>
+					<roll>0</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>113.4119701994914,35.00311783537902,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>眭固</name>
+				<description>199年，曹操派史涣、曹仁、于禁和徐晃击破张杨旧部眭固，取得河内郡，把势力范围扩张到黄河以北。</description>
+				<Camera>
+					<longitude>113.0156561393577</longitude>
+					<latitude>35.46453525890103</latitude>
+					<altitude>807446.8270530007</altitude>
+					<heading>-0.4256674736369764</heading>
+					<tilt>0</tilt>
+					<roll>0</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>113.4119701994914,35.00311783537902,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Placemark>
+			<name>袁术</name>
+			<description>穷途末路的袁术病死于寿春，其部下向曹操投降，淮南之地尽归曹操之手。</description>
+			<LookAt>
+				<longitude>116.7631720494673</longitude>
+				<latitude>33.3013090045418</latitude>
+				<altitude>0</altitude>
+				<heading>0.4174228553184693</heading>
+				<tilt>0</tilt>
+				<range>667105.4612138036</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_wht-blank</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>116.7765326454975,32.57614041513836,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 	<Folder id="0E52A9E66B1EFA6101FC">
 		<name>202年</name>
-		<visibility>0</visibility>
 		<styleUrl>#__managed_style_074624D44F1EFDE95E87</styleUrl>
 		<Placemark id="0A1AE9683D1EFA658C59">
 			<name>曹操</name>
-			<visibility>0</visibility>
 			<description><![CDATA[<div>202年，曹操北征，路过桥玄之墓，下令祭祀桥玄，并且写下悼文。<br></div>]]></description>
 			<LookAt>
 				<longitude>115.6147204515295</longitude>
